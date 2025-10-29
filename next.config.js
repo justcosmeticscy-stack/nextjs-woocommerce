@@ -12,4 +12,12 @@ const nextConfig = {
   },
 };
 
+async rewrites() {
+  return [
+    { source: '/category/:slug', destination: '/kategori/:slug' },
+  ];
+}
+
+
 module.exports = nextConfig;
+
