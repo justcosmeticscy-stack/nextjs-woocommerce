@@ -21,7 +21,7 @@ const nextConfig = {
       // ADD YOUR WP staging host:
       {
         protocol: 'https',
-        hostname: 'staging-f302-justcosmeticscy.wpcomstaging.com/',
+        hostname: 'staging-f302-justcosmeticscy.wpcomstaging.com',
         pathname: '**',
       },
       // (Optional) when you switch to live WP media later, add:
